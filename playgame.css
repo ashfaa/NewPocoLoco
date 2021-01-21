@@ -1,0 +1,130 @@
+body {
+  background-image: url(img/cooc2.jpeg);
+  position: fixed;
+}
+* {
+  margin: 0;
+}
+.menu {
+  border-radius: 20%;
+  position: absolute;
+}
+.menu input {
+  width: 200px;
+  height: 40px;
+  border-radius: 15%;
+  font-family: "Gochi Hand", cursive;
+  font-size: 25px;
+  background: rgb(180, 6, 6);
+  color: white;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.game-display {
+  width: 880px;
+  height: 480px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.start {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Gorditas", cursive;
+  width: 500px;
+  height: 100px;
+  border: 2px solid rgb(153, 6, 6);
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  margin: 200px 200px;
+  color: rgb(153, 6, 6);
+}
+.start:hover {
+  border: 3px blue;
+  color: blue;
+}
+
+#gbr {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 250px;
+  top: 20px;
+}
+#gbr img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 20px 100px;
+}
+
+#question p {
+  font-size: 1.25em;
+  color: rgb(153, 6, 6);
+  width: 500px;
+  height: 125px;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  text-align: center;
+  font-family: "Gochi Hand", cursive;
+  font-size: 30px;
+}
+#choices {
+  position: absolute;
+  top: 300px;
+  left: 180px;
+  padding: 10px;
+  color: white;
+  font-family: "Gochi Hand", cursive;
+  font-size: 18px;
+}
+.choice {
+  display: inline-table;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px 30px;
+  background: rgb(153, 6, 6);
+}
+.choice:hover {
+  border: 2px solid yellow;
+  font-weight: bold;
+}
+
+#scoreContainer {
+  width: 880px;
+  height: 480px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+img {
+  margin: auto;
+}
+#scoreContainer p {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  top: 40px;
+  left: 150px;
+  font-family: "Handlee", cursive;
+  color: rgb(153, 6, 6);
+}
+
+#scoreContainer img {
+  width: 500px;
+  height: 400px;
+  margin: 50px 200px;
+}
